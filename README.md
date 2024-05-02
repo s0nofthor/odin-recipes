@@ -1,1 +1,2 @@
-What I will have proved by the end of this
+This project shows that I can put together a competent webpage that has links to seperate pages within the website, ordered and unordered lists, images that are supplementary to the page content, and headings. While not explicitly asked I did my best to provide a consistent format, external links that open in new tabs with the recommended security, italics, and a general enthusiasim. A small catalog of recipes I quite enjoy is how I demonstrated these skills and while it is not pretty, that will come with time.
+I also highly recommend trying one of the recipes because I hold them in high regard.
