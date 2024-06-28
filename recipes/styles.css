@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* applies to all */
+* {
+    background-color: darkgoldenrod;
+}
+
+h1 {
+    color: darkviolet;
+    text-align: center;
+    height: 316px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2, h3{
+    background-color: cornflowerblue;
+}
+
+ol, ul, p, li{
+    background-color: wheat;
+}
+
+/* main header for specifics */
+#pizza {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AkkbOKzcAjz56uI/ehIjNHy1xf0V9AAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=);
+}
+
+#fc {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/5/57/KFC_logo-image.svg);
+}
+
+#rkts {
+    background-image: url(https://t4.ftcdn.net/jpg/03/36/77/49/360_F_336774946_qhdYD0J7BI8AP0dVbSIpnz2g3cd3zBEg.jpg);
+}

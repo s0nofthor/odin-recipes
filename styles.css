@@ -1,0 +1,26 @@
+/* styles.css */
+
+* {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: solid;
+    text-align: center;
+}
+
+ul {
+    font-size: large;
+    background-color: red;
+    border: solid, wheat;
+    text-align: center;
+    list-style-type: none;
+}
+
+.items {
+    background-color: red;
+}
