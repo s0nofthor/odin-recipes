@@ -1,26 +1,53 @@
 /* styles.css */
 
 * {
-    background-color: black;
+    background-color: #a26d65;
 }
 
 h1 {
-    color: red;
-    background-color: blue;
+    color: #63b891;
+    background-color: #FF2400;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 4em;
     border: solid;
     text-align: center;
+    padding: 8px;
+    margin-bottom: 12px;
 }
 
 ul {
     font-size: large;
-    background-color: red;
-    border: solid, wheat;
+    background-color: #FF2400;
+    border: solid, #63b891;
     text-align: center;
     list-style-type: none;
+    padding: 8px 0px;
+    margin-top: 12px;
+}
+
+li {
+    margin: auto;
 }
 
 .items {
-    background-color: red;
+    background-color: #FF2400;
+    padding: 8px 24px;
+}
+
+.button {
+    background-color: #5f786c;
+    margin: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #4d4341;
+    color: #48f7a7;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+h1, ul {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }

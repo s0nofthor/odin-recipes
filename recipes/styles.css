@@ -1,44 +1,65 @@
 /* styles.css */
 
 /* applies to all */
-* {
-    background-color: darkgoldenrod;
+h1 {
+    margin-bottom: 12px;
+    font-size: 4em;
+    border-width: 4px;
 }
 
-h1 {
-    color: darkviolet;
+h2 {
+    font-size: 1.5em;
+}
+
+h1, h2 {
     text-align: center;
-    height: 316px;
+    margin: auto;
+}
+
+h1, h2, ul {
+    width: max-content;
+}
+
+ol {
+    width: 90%;
+}
+
+h1, h2, ol, ul, p{
+    border: solid;
+    padding: 4px 24px;
 }
 
 img {
     display: block;
+    width: 50%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-h2 {
-    text-align: center;
-}
-
-h2, h3{
-    background-color: cornflowerblue;
-}
-
-ol, ul, p, li{
-    background-color: wheat;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 /* main header for specifics */
 #pizza {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AkkbOKzcAjz56uI/ehIjNHy1xf0V9AAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=);
+   background-color: #fffa8a;
+
+    h1, h2, p, ol, ul{
+        background-color: #ce0000;
+    }
 }
 
 #fc {
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/5/57/KFC_logo-image.svg);
+    background-color: #a50034;
+
+    h1, h2, p, ol, ul{
+        background-color: #fff1e2;
+    }
 }
 
 #rkts {
-    background-image: url(https://t4.ftcdn.net/jpg/03/36/77/49/360_F_336774946_qhdYD0J7BI8AP0dVbSIpnz2g3cd3zBEg.jpg);
+    background-color: #009bdb;
+
+    h1, h2, p, ol, ul{
+        background-color: #fefdff;
+    }
 }
